@@ -1,0 +1,9 @@
+Harmony -
+Grasp -> Constructiva
+Evolucion Diferencial
+
+
+Trayectorial --> 1 solucion que se mejora con cada iteracion (Ej. busqueda local iterada)
+    - Constructiva -> para generar soluciones iniciales (Ej. GRASP)
+Poblacional --> n soluciones que se mejoran con cada iteracion (Ej. genetico)
+    - Inspirados en la naturaleza (Ej. PSO)

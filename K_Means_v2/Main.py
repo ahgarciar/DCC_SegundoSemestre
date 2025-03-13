@@ -198,10 +198,12 @@ def pca():
 
 if __name__ == '__main__':
     X=loadData()
-    ElbowMethod(X)
-    #kmeans = Kmeans_method(X,8)
-    #kmeans = Kmeans_method_3D(X,clusters=5)
+    #ElbowMethod(X)
+    #kmeans = Kmeans_method(X,3)
+    #kmeans = Kmeans_method_3D(X,clusters=3)
     #kmeans = Kmeans_PCA(X, 3)
     #kmeans = Kmeans_PCA3D(X, 3)
-    #Metrics(X,3)
+    Metrics(X,3)
 
+
+##indice de davies --- mas bajo es mejor !!
