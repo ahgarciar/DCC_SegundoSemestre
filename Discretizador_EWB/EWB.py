@@ -1,6 +1,6 @@
 
-#archivo = open("iris_completa.csv")
-archivo = open("wine.csv")
+archivo = open("iris_completa.csv")
+#archivo = open("wine.csv")
 contenido = archivo.readlines()
 #############################################################################################
 instancia = []
@@ -10,7 +10,7 @@ encabezados = instancia[0]
 del instancia[0] 
 #############################################################################################
 ###GRUPOS A GENERAR
-v_K = 5    # Pagina de referencia comparativa ->>>>  https://orange.readthedocs.io/en/latest/reference/rst/Orange.feature.discretization.html#Orange.feature.discretization.Discretization
+v_K = 6    # Pagina de referencia comparativa ->>>>  https://orange.readthedocs.io/en/latest/reference/rst/Orange.feature.discretization.html#Orange.feature.discretization.Discretization
 #############################################################################################
 intervalos = []
 for index_atributo in range(len(instancia[0])-1):

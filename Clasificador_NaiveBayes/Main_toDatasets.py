@@ -1,6 +1,6 @@
 
-
 file2read = open("iris_training.csv")
+#file2read = open("iris_completa.csv")
 file_content = file2read.readlines()
 
 #############################################################################################

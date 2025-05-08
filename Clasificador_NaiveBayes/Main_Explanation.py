@@ -55,7 +55,8 @@ for c in probabilities[0]:
 ## classify a register
 #############################################################################################
 
-register = ["Soleado", "Frío", "Alta", "Fuerte"] #test1 
+
+register = ["Lluvioso", "Caliente", "Normal", "Fuerte"] #test1
 #register = ["Nublado", "Frío", "Normal", "Fuerte"] #test2
 
 
