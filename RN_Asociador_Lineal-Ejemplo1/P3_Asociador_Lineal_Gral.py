@@ -46,7 +46,7 @@ print("Prueba...")
 casosCorrectos = 0
 
 #CLASE SALIDA1  SALIDA 2  SALIDA 3
-Clases = ["MAGO", "DUELISTA", "GUERRERO"]
+Clases = ["BUENO", "REGULAR", "MALO"]
 
 for i in range(X.shape[1]): #para cada uno de los casos/registros de prueba
     print("Prueba del Caso ", i + 1)
@@ -81,9 +81,12 @@ print("Eficiencia del Asociador Lineal: ", casosCorrectos/X.shape[1]*100.0)
 #UTILIZACIÓN DEL ASOCIADOR LINEAL...
 print("\n\nPrueba de funcionamiento del asociador lineal: ")
 
-#0 0 1  = GUERRERO
-x = [78, 53, 11, 30, 86, 23]
-y = "GUERRERO"
+##
+#x = [8, 8, 9, 10]
+#y = "BUENO"
+
+x = [9,	5,	4,	8]
+y = "MALO"
 
 x = n.array(x)
 Ycasox = W.dot(x)
@@ -94,3 +97,23 @@ IndexMaxYcasoi = list(Ycasox).index(max(Ycasox))
 print("Clase Asignada: ", Clases[IndexMaxYcasoi])
 
 print("Correcto " if Clases[IndexMaxYcasoi] == y else "Incorrecto")
+
+
+##--->MACHINE LEARNING (APRENDIZAJE AUTOMATICO) ...-> SUPERVISADO, SEMISUPERVISADO, NO SUPERVISADO
+## CLASIFICACION
+## AGRUPAMIENTO
+## REGRESION
+
+
+
+##-----> PARA QUE UN ALGORITMO DE CLASIFICACION FUNCIONE DE LA MEJOR MANERA
+# ES ALTAMENTE RECOMENDABLE QUE EXISTA UN BALANCE ENTRE LAS CLASES QUE SE UTILIZAN
+# PARA ENTRENAR AL ALGORITMO.
+
+#EDA - analis exploratorio de los datos
+
+#AGREGACIÓN --->
+#DISCRETIZACION --->
+
+#análisis de dimensionalidad de las variables
+# se debe evitar el sesgo!
